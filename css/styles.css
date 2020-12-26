@@ -583,8 +583,8 @@ textarea {
 
 @media screen and (min-width: 992px) {
   .features {
-    padding-bottom: 138px;
-    background: url(../images/features/phone-418.png) no-repeat center bottom;
+    padding-top: 138px;
+    background: url(../images/features/phone-421.png) no-repeat center bottom;
     background-size: 37vw;
   }
   .features .section-title {
