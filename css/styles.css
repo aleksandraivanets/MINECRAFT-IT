@@ -531,22 +531,22 @@ textarea {
 }
 
 .board::before {
-  background-image: url(../images/icons-png/board.png);
+  background-image: url(../images/icons-png/minecraft-sword-creative.png);
 }
 .hub::before {
-  background-image: url(../images/icons-png/hub.png);
+  background-image: url(../images/icons-png/minecraft-multiplayer-server.png);
 }
 .up::before {
-  background-image: url(../images/icons-png/up.png);
+  background-image: url(../images/icons-png/minecraft-heart-survival.png);
 }
 .star::before {
-  background-image: url(../images/icons-png/star.png);
+  background-image: url(../images/icons-png/minecraft-debug-mode.png);
 }
 .notification::before {
-  background-image: url(../images/icons-png/notification.png);
+  background-image: url(../images/icons-png/minecraft-spectator-mode.png);
 }
 .share::before {
-  background-image: url(../images/icons-png/share.png);
+  background-image: url(../images/icons-png/minecraft-mobs.png);
 }
 
 @media screen and (min-width: 600px) {
