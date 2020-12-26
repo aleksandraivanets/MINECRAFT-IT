@@ -545,22 +545,22 @@ textarea {
 }
 
 .board::before {
-  background-image: url(../images/icons-png/board.png);
+  background-image: url(../images/icons-png/minecraft-sword-creative.png);
 }
 .hub::before {
-  background-image: url(../images/icons-png/hub.png);
+  background-image: url(../images/icons-png/minecraft-multiplayer-server.png);
 }
 .up::before {
-  background-image: url(../images/icons-png/up.png);
+  background-image: url(../images/icons-png/minecraft-heart-survival.png);
 }
 .star::before {
-  background-image: url(../images/icons-png/star.png);
+  background-image: url(../images/icons-png/minecraft-debug-mode.png);
 }
 .notification::before {
-  background-image: url(../images/icons-png/notification.png);
+  background-image: url(../images/icons-png/minecraft-spectator-mode.png);
 }
 .share::before {
-  background-image: url(../images/icons-png/share.png);
+  background-image: url(../images/icons-png/minecraft-mobs.png);
 }
 
 @media screen and (min-width: 600px) {
@@ -597,8 +597,8 @@ textarea {
 
 @media screen and (min-width: 992px) {
   .features {
-    padding-bottom: 138px;
-    background: url(../images/features/phone-418.png) no-repeat center bottom;
+    padding-top: 138px;
+    background: url(../images/features/phone-421.png) no-repeat center bottom;
     background-size: 37vw;
   }
   .features .section-title {
@@ -671,6 +671,12 @@ textarea {
   overflow: hidden;
   margin: 0 auto 20px;
 }
+
+.developers {
+  width: 270px;
+  height: 300px;
+}
+
 .hover-container {
   display: flex;
   flex-wrap: wrap;
@@ -680,7 +686,7 @@ textarea {
   width: 100%;
   height: 100%;
   padding: 20px 27px 24px;
-  background-color: rgba(51, 12, 244, 0.851);
+  background-color: rgba(124, 244, 12, 0.851);
   transform: translateY(-100%);
   transition: transform 0.2s ease-in-out;
 }
