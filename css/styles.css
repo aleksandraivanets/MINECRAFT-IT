@@ -224,7 +224,7 @@ textarea {
   position: relative;
   padding-top: 20px;
   padding-bottom: 80px;
-  background-image: url(../images/header/bg-320.jpg);
+  background-image: url(../images/header/);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -402,7 +402,7 @@ textarea {
     position: absolute;
     left: 50%;
     bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    background: url(../images/features/phone-421.png) no-repeat center bottom;
     background-size: contain;
     transition: 0.2s linear all;
   }
@@ -469,7 +469,7 @@ textarea {
     position: absolute;
     left: calc(50% + 150px);
     bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    background: url(../images/header/phone-421.png) no-repeat center bottom;
     background-size: contain;
   }
 }
@@ -487,6 +487,10 @@ textarea {
 .features {
   padding-top: 50px;
   padding-bottom: 20px;
+}
+
+.base-text{
+  padding-bottom: 60px;
 }
 
 .features .section-title {
@@ -584,13 +588,7 @@ textarea {
 @media screen and (min-width: 992px) {
   .features {
     padding-top: 138px;
-    background: url(../images/features/phone-421.png) no-repeat center bottom;
-    background-size: 37vw;
-  }
-  .features .section-title {
-    margin-bottom: 82px;
-  }
-  .features .base-text {
+    background: url(../images/features/phone-422.png) no-repeat center bottom;
     margin-bottom: 148px;
   }
   .list-key {
