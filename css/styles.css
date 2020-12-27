@@ -672,9 +672,10 @@ textarea {
   width: 100%;
   height: 100%;
   padding: 20px 27px 24px;
-  background-color: rgba(124, 244, 12, 0.851);
+  background-color: rgba(255, 187, 0, 0.851);
+  /* background-image: linear-gradient(to bottom left, #0b486b, #f56217); */
   transform: translateY(-100%);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .hover-container__text {
   font-weight: bold;
@@ -711,8 +712,8 @@ textarea {
 .facebook {
   background-image: url(../images/social-icons/facebook.svg);
 }
-.linkedin {
-  background-image: url(../images/social-icons/linkedin.svg);
+.instagram {
+  background-image: url(../images/social-icons/instagram\ 2.png);
 }
 .list-team__name {
   font-size: 18px;
