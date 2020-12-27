@@ -244,7 +244,7 @@ textarea {
     height: 100%;
 
 }
-.video-over::before{
+.video-over::after{
   content: "";
   display: block;
     height: 100%;
@@ -252,7 +252,7 @@ textarea {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.74);
 }
 
 .iner-wrap{
