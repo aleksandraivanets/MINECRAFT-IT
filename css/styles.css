@@ -770,6 +770,10 @@ textarea {
 .instagram {
   background-image: url(../images/social-icons/instagram\ 2.png);
 }
+.youtube  {
+  background-image: url(../images/footer/youtube.svg)
+}
+
 .list-team__name {
   font-size: 18px;
   color: rgb(6, 32, 51);
@@ -913,9 +917,14 @@ textarea {
 .footer-contact__social-link.twitter {
   background-color: #3ec2f3;
 }
-.footer-contact__social-link.linkedin {
-  background-color: #007ab9;
+.footer-contact__social-link.instagram{
+  background-image: url(../images/footer/instagram.svg), linear-gradient( 45deg, #ffda55 0%, #fe543f 50%, #c938a9 100% );
+  background-size: 55%, auto ;
 }
+.footer-contact__social-link.youtube{
+  background-color: #FF0000;
+}
+
 .contact__wrp:not(:last-child) {
   margin-bottom: 6px;
 }
