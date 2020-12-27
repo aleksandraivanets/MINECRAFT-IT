@@ -234,6 +234,31 @@ textarea {
 
 }
 
+
+.header video{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
+.video-over::before{
+  content: "";
+  display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+.iner-wrap{
+  position: relative;
+}
+
 .header .container{
   backdrop-filter: blur(2px);
 }
