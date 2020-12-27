@@ -737,6 +737,7 @@ textarea {
   }
   .team .section-title {
     margin-bottom: 62px;
+    color: rgb(66, 158, 66);
   }
   .team .base-text {
     max-width: 75%;
