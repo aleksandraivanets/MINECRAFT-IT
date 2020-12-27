@@ -181,7 +181,7 @@ textarea {
 
 .download {
   color: rgb(255, 255, 255);
-  background: rgb(51, 12, 244) url(../images/icons/cloud.svg) no-repeat 22px
+  background: rgb(241, 193, 35) url(../images/icons/cloud.svg) no-repeat 22px
     center;
   background-size: 32px;
   padding-left: 78px;
@@ -195,7 +195,7 @@ textarea {
   align-items: center;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-  color: rgb(51, 12, 244);
+  color: rgb(66, 128, 66);
   font-weight: bold;
   line-height: 2;
   text-align: center;
@@ -224,13 +224,43 @@ textarea {
   position: relative;
   padding-top: 20px;
   padding-bottom: 80px;
-  background-image: url(../images/header/bg-320.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.856)),url(../images/header/minecraft.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
   color: rgb(255, 255, 255);
   overflow-x: hidden;
+
+}
+
+
+.header video{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
+.video-over::after{
+  content: "";
+  display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.iner-wrap{
+  position: relative;
+}
+
+.header .container{
+  backdrop-filter: blur(2px);
 }
 
 .nav {
@@ -249,7 +279,7 @@ textarea {
 .logo {
   font-size: 26px;
   font-family: "Raleway", sans-serif;
-  color: rgb(51, 12, 244);
+  color: #87C260;
   font-weight: bold;
   line-height: 1.385;
 }
@@ -271,6 +301,7 @@ textarea {
   max-height: calc(100vh - 100px);
   overflow-y: auto;
 }
+
 .menu__item {
   text-align: center;
 }
@@ -278,8 +309,11 @@ textarea {
   margin-bottom: 18px;
 }
 .menu__item-link:hover {
-  color: rgb(40, 37, 40);
+  color: #87C260;
 }
+
+
+
 .menu__item-link {
   font-size: 12px;
   color: rgba(40, 37, 40, 0.6);
@@ -292,6 +326,8 @@ textarea {
 .menu__item-link--active {
   color: rgb(40, 37, 40);
 }
+
+
 
 .hamburger {
   position: relative;
@@ -406,6 +442,22 @@ textarea {
     background-size: contain;
     transition: 0.2s linear all;
   }
+
+
+  .Christopher_Campbell {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 864.937px;
+    top: 1477.6px;
+    z-index: 38;
+  }
+  
+
   .header::before {
     content: "";
     display: block;
@@ -418,6 +470,7 @@ textarea {
   }
   .header-list__item {
     font-size: 22px;
+    color: #818481;
   }
   .nav {
     margin-bottom: 152px;
@@ -429,6 +482,7 @@ textarea {
     padding: 0;
     margin: 0;
     height: auto;
+    
   }
 
   .menu__item:not(:last-child) {
@@ -436,6 +490,7 @@ textarea {
   }
   .menu .menu__item {
     margin-bottom: 0;
+    
   }
 
   .title {
@@ -447,7 +502,8 @@ textarea {
   }
 
   .header-sub-title {
-    font-size: 28px;
+    font-size: 20px;
+    color: #818481;
   }
 
   .header-list {
@@ -974,18 +1030,18 @@ textarea {
 
 /* Медіа правила що стусуються усього сайту */
 @media screen and (min-width: 480px) {
-  .header {
+  /* .header {
     background-image: url(../images/header/bg-768.jpg);
-  }
+  } */
   .footer {
     background-image: url(../images/footer/bg-768.jpg);
   }
 }
 
 @media screen and (min-width: 860px) {
-  .header {
-    background-image: url(../images/header/header_bg-1200.jpg);
-  }
+  /* .header {
+    background-image: url(../images/header/minecraft.jpg);
+  } */
   .footer {
     background-image: url(../images/footer/bg-1200.jpg);
   }
