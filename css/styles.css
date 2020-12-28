@@ -260,10 +260,6 @@ textarea {
   position: relative;
 }
 
-.header .container{
-  backdrop-filter: blur(2px);
-}
-
 .nav {
   padding-top: 22px;
   padding-bottom: 22px;
@@ -291,10 +287,10 @@ textarea {
 
 .menu {
   position: absolute;
-  top: 100px;
+  top: 81px;
   right: -100%;
   width: 100%;
-  height: calc(100% - 100px);
+  height: calc(100vh - 102px);
   padding-top: 10px;
   padding-bottom: 40px;
   transition: all 0.2s linear;
@@ -1031,39 +1027,28 @@ textarea {
 
   .contact-us {
     margin-bottom: 0;
+    margin-right: 0;
   }
 }
 
 /* end footer */
 
 /* Медіа правила що стусуються усього сайту */
-<<<<<<< HEAD
-@media screen and (min-width: 500px) {
-  .header {
-=======
 @media screen and (min-width: 480px) {
   /* .header {
->>>>>>> 751150fe88cbf2930264e918d8f84687a07cb8c7
     background-image: url(../images/header/bg-768.jpg);
   } */
   .footer {
-    background-image: url(../images/footer/bg-768.jpg);
+    /* background-image: url(../images/footer/bg-768.jpg); */
   }
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 880px) {
-  .header {
-    background-image: url(../images/header/header_bg-1200.jpg);
-  }
-=======
 @media screen and (min-width: 860px) {
   /* .header {
     background-image: url(../images/header/minecraft.jpg);
   } */
->>>>>>> 751150fe88cbf2930264e918d8f84687a07cb8c7
   .footer {
-    background-image: url(../images/header/header_bg-1200.jpg);
+    /* background-image: url(../images/header/header_bg-1200.jpg); */
   }
 }
 
